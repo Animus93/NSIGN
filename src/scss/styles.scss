@@ -1,0 +1,99 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&family=Noto+Sans+Lao:wght@600;700&display=swap");
+
+.custom-h1 {
+  font-family: "Noto Sans Lao", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 51px;
+  color: #132141;
+}
+.custom-text {
+  font-family: "Golos Text", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #132141;
+}
+.custom-form-title {
+  font-family: "Golos Text", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #132141;
+}
+.custom-form-label {
+  font-family: "Golos Text", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #132141;
+}
+.custom-btn {
+  font-family: "Golos Text", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #132141;
+  background: #10bd99;
+  border: none;
+  justify-self: flex-end;
+}
+.custom-form {
+  background-color: #f3f6fa;
+  border-radius: 8px;
+}
+.form-control {
+  font-size: 12px;
+}
+.custom-head-text {
+  display: none;
+}
+.custom-h3 {
+  font-family: "Golos Text", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 56px;
+  color: #132141;
+}
+@media (max-width: 640px) {
+  .custom-h1 {
+    font-family: "Noto Sans Lao", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #132141;
+  }
+  .custom-head-text {
+    display: block;
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #f3f6fa;
+    border-radius: 15px;
+  }
+  .custom-text {
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .custom-h3 {
+    font-family: "Golos Text", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
